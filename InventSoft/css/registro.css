@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.general{
+   background-image: url("../images/compu1.jpg");
+    height: 657px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+.menu{
+    width: 100%;
+    height: 60px;
+    position: relative;right: 120px; top: 30px;
+    
+} 
+#lista{
+    list-style: none;
+    float: left;
+    font-size: 40px;
+   position: relative;
+   left: 500px;
+   margin: 20px;
+    
+}
+#lista a{
+    color:white;  
+    
+}
+.menu li:hover{
+    text-decoration: underline; 
+}
+
+.formulario{
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(236, 240, 243);
+    margin-top: -30px; opacity: 0.9;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 40px; margin-top: 35px;
+    
+}
+.input-cont{
+   
+    text-align: center;;
+    font-size: 20px; 
+    position: relative; top: 30px;   
+}
+#caja{
+    width: 90%;
+    height: 25px;
+    margin-top: 10px;
+    
+}
+#botton{
+    width: 70%;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(5, 107, 85);
+    margin-top: 30px;
+    border-radius:4px ;
+   
+    cursor: pointer;
+}
+p{
+    color: blue;
+    margin-top: 15px;
+    font-size: 15px;
+}
+#contra{
+    text-align: center;
+    color: blue;
+}
+#contra:hover{
+    text-decoration: underline;
+    color: blue;
+}

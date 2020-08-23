@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Usuario</title>
+    <link rel="stylesheet" href="css/registrar.css">
+</head>
+<body>
+<div class="containe" style="overflow-x: hidden;">
+    <div class="menu">
+        <a href="inicioadmin.php" style="text-decoration: none;"><h2>Registrar usuario</h2></a>
+        <a href="listai.php" style="position: relative; left: 1200px; bottom: 50px;  text-decoration: none;"><p style="color: white;">Lista Registrados</p></a>
+    </div>
+    <form class="formulario" action="registro/insertusu.php" method="POST">
+        <h1>Registro</h1> 
+        <div class="container">
+            <div class="input-cont">
+                <i class="fas fa-user"></i>
+                <input type="text" id="caja" name="nombre" placeholder="Nombre" required>
+
+            </div>
+            <div class="input-cont">
+                <i class="fas fa-user"></i>
+                <input type="text" id="caja" name="apellido" placeholder="Apellidos" require>     
+             </div> 
+             <div class="input-cont">
+                <i class="fas fa-key"></i>
+                <input type="number" id="caja" name="telefono" placeholder="Telefono" require>          
+            </div>
+    <div class="container">
+         <div class="input-cont">
+            <i class="fas fa-envelope"></i>
+            <input type="text" id="caja" name="correo" placeholder="Correo electrónico" require>                           
+        </div>
+        <div class="input-cont">
+            <i class="fas fa-key"></i>
+            <input type="password" id="caja" name="contraseña" placeholder="Contraseña" require>          
+        </div>
+       
+        <div class="input-cont">
+            <input type="submit" id="botton" name="registrarse" value="Registrar" >      
+        </div>
+        
+    </div>
+</form>
+</div>
+</body>
+</html>
